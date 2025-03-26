@@ -1,0 +1,877 @@
+---------------------------- PROCESS STARTED (5740) for package com.example.individualproxy ----------------------------
+2025-03-26 03:52:53.541  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Using default config: {
+                                                                                                        "log": {
+                                                                                                            "loglevel": "debug",
+                                                                                                            "access": "/data/user/0/com.example.individualproxy/files/xray_access.log",
+                                                                                                            "error": "/data/user/0/com.example.individualproxy/files/xray_error.log"
+                                                                                                        },
+                                                                                                        "dns": {
+                                                                                                            "servers": [
+                                                                                                                "8.8.8.8",
+                                                                                                                "8.8.4.4"
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        "inbounds": [
+                                                                                                            {
+                                                                                                                "port": 10808,
+                                                                                                                "protocol": "socks",
+                                                                                                                "settings": {
+                                                                                                                    "auth": "noauth",
+                                                                                                                    "udp": true,
+                                                                                                                    "ip": "127.0.0.1"
+                                                                                                                },
+                                                                                                                "tag": "socks-in"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "outbounds": [
+                                                                                                            {
+                                                                                                                "protocol": "vless",
+                                                                                                                "settings": {
+                                                                                                                    "vnext": [
+                                                                                                                        {
+                                                                                                                            "address": "95.216.125.17",
+                                                                                                                            "port": 443,
+                                                                                                                            "users": [
+                                                                                                                                {
+                                                                                                                                    "id": "b37458f5-8efa-418c-9f9f-0cfbbf41e5fe",
+                                                                                                                                    "encryption": "none",
+                                                                                                                                    "flow": "xtls-rprx-vision"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                },
+                                                                                                                "streamSettings": {
+                                                                                                                    "network": "tcp",
+                                                                                                                    "security": "reality",
+                                                                                                                    "realitySettings": {
+                                                                                                                        "serverName": "asus.com",
+                                                                                                                        "fingerprint": "chrome",
+                                                                                                                        "publicKey": "YNU3-NsquulMjTPTvxCObCUCEWzvYaHtpOctezNeGSo",
+                                                                                                                        "shortId": "1dfc79e3",
+                                                                                                                        "spiderX": "/"
+                                                                                                                    }
+                                                                                                                },
+                                                                                                                "tag": "proxy"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "routing": {
+                                                                                                            "domainStrategy": "IPIfNonMatch",
+                                                                                                            "rules": [
+                                                                                                                {
+                                                                                                                    "type": "field",
+                                                                                                                    "inboundTag": ["socks-in"],
+                                                                                                                    "outboundTag": "proxy"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    }
+2025-03-26 03:52:53.542  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Saving config to internal storage: {
+                                                                                                        "log": {
+                                                                                                            "loglevel": "debug",
+                                                                                                            "access": "/data/user/0/com.example.individualproxy/files/xray_access.log",
+                                                                                                            "error": "/data/user/0/com.example.individualproxy/files/xray_error.log"
+                                                                                                        },
+                                                                                                        "dns": {
+                                                                                                            "servers": [
+                                                                                                                "8.8.8.8",
+                                                                                                                "8.8.4.4"
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        "inbounds": [
+                                                                                                            {
+                                                                                                                "port": 10808,
+                                                                                                                "protocol": "socks",
+                                                                                                                "settings": {
+                                                                                                                    "auth": "noauth",
+                                                                                                                    "udp": true,
+                                                                                                                    "ip": "127.0.0.1"
+                                                                                                                },
+                                                                                                                "tag": "socks-in"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "outbounds": [
+                                                                                                            {
+                                                                                                                "protocol": "vless",
+                                                                                                                "settings": {
+                                                                                                                    "vnext": [
+                                                                                                                        {
+                                                                                                                            "address": "95.216.125.17",
+                                                                                                                            "port": 443,
+                                                                                                                            "users": [
+                                                                                                                                {
+                                                                                                                                    "id": "b37458f5-8efa-418c-9f9f-0cfbbf41e5fe",
+                                                                                                                                    "encryption": "none",
+                                                                                                                                    "flow": "xtls-rprx-vision"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                },
+                                                                                                                "streamSettings": {
+                                                                                                                    "network": "tcp",
+                                                                                                                    "security": "reality",
+                                                                                                                    "realitySettings": {
+                                                                                                                        "serverName": "asus.com",
+                                                                                                                        "fingerprint": "chrome",
+                                                                                                                        "publicKey": "YNU3-NsquulMjTPTvxCObCUCEWzvYaHtpOctezNeGSo",
+                                                                                                                        "shortId": "1dfc79e3",
+                                                                                                                        "spiderX": "/"
+                                                                                                                    }
+                                                                                                                },
+                                                                                                                "tag": "proxy"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "routing": {
+                                                                                                            "domainStrategy": "IPIfNonMatch",
+                                                                                                            "rules": [
+                                                                                                                {
+                                                                                                                    "type": "field",
+                                                                                                                    "inboundTag": ["socks-in"],
+                                                                                                                    "outboundTag": "proxy"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    }
+2025-03-26 03:52:53.545  5740-5740  VPN_SERVICE             com.example.individualproxy          D  VPN configuration JSON is valid
+2025-03-26 03:52:53.733  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Service created
+2025-03-26 03:52:53.783  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Using config: eyJEYXREaXIiOiJcL2RhdGFcL3VzZXJcLzBcL2NvbS5leGFtcGxlLmluZGl2aWR1YWxwcm94eVwvZmlsZXNcL2RhdF9maWxlcyIsIkNvbmZpZ1BhdGgiOiJcL2RhdGFcL3VzZXJcLzBcL2NvbS5leGFtcGxlLmluZGl2aWR1YWxwcm94eVwvZmlsZXNcL3Zwbl9jb25maWcuanNvbiJ9
+2025-03-26 03:52:53.788  5740-5769  VPN_SERVICE             com.example.individualproxy          D  Decoded JSON config: {"DatDir":"\/data\/user\/0\/com.example.individualproxy\/files\/dat_files","ConfigPath":"\/data\/user\/0\/com.example.individualproxy\/files\/vpn_config.json"}
+2025-03-26 03:52:53.807  5740-5769  VPN_SERVICE             com.example.individualproxy          D  Xray config from file: {
+                                                                                                        "log": {
+                                                                                                            "loglevel": "debug",
+                                                                                                            "access": "/data/user/0/com.example.individualproxy/files/xray_access.log",
+                                                                                                            "error": "/data/user/0/com.example.individualproxy/files/xray_error.log"
+                                                                                                        },
+                                                                                                        "dns": {
+                                                                                                            "servers": [
+                                                                                                                "8.8.8.8",
+                                                                                                                "8.8.4.4"
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        "inbounds": [
+                                                                                                            {
+                                                                                                                "port": 10808,
+                                                                                                                "protocol": "socks",
+                                                                                                                "settings": {
+                                                                                                                    "auth": "noauth",
+                                                                                                                    "udp": true,
+                                                                                                                    "ip": "127.0.0.1"
+                                                                                                                },
+                                                                                                                "tag": "socks-in"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "outbounds": [
+                                                                                                            {
+                                                                                                                "protocol": "vless",
+                                                                                                                "settings": {
+                                                                                                                    "vnext": [
+                                                                                                                        {
+                                                                                                                            "address": "95.216.125.17",
+                                                                                                                            "port": 443,
+                                                                                                                            "users": [
+                                                                                                                                {
+                                                                                                                                    "id": "b37458f5-8efa-418c-9f9f-0cfbbf41e5fe",
+                                                                                                                                    "encryption": "none",
+                                                                                                                                    "flow": "xtls-rprx-vision"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                },
+                                                                                                                "streamSettings": {
+                                                                                                                    "network": "tcp",
+                                                                                                                    "security": "reality",
+                                                                                                                    "realitySettings": {
+                                                                                                                        "serverName": "asus.com",
+                                                                                                                        "fingerprint": "chrome",
+                                                                                                                        "publicKey": "YNU3-NsquulMjTPTvxCObCUCEWzvYaHtpOctezNeGSo",
+                                                                                                                        "shortId": "1dfc79e3",
+                                                                                                                        "spiderX": "/"
+                                                                                                                    }
+                                                                                                                },
+                                                                                                                "tag": "proxy"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "routing": {
+                                                                                                            "domainStrategy": "IPIfNonMatch",
+                                                                                                            "rules": [
+                                                                                                                {
+                                                                                                                    "type": "field",
+                                                                                                                    "inboundTag": ["socks-in"],
+                                                                                                                    "outboundTag": "proxy"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    }
+2025-03-26 03:52:53.819  5740-5769  VPN_SERVICE             com.example.individualproxy          D  Updated config with port 10809: {
+                                                                                                        "log": {
+                                                                                                            "loglevel": "debug",
+                                                                                                            "access": "/data/user/0/com.example.individualproxy/files/xray_access.log",
+                                                                                                            "error": "/data/user/0/com.example.individualproxy/files/xray_error.log"
+                                                                                                        },
+                                                                                                        "dns": {
+                                                                                                            "servers": [
+                                                                                                                "8.8.8.8",
+                                                                                                                "8.8.4.4"
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        "inbounds": [
+                                                                                                            {
+                                                                                                                "port": 10809,
+                                                                                                                "protocol": "socks",
+                                                                                                                "settings": {
+                                                                                                                    "auth": "noauth",
+                                                                                                                    "udp": true,
+                                                                                                                    "ip": "127.0.0.1"
+                                                                                                                },
+                                                                                                                "tag": "socks-in"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "outbounds": [
+                                                                                                            {
+                                                                                                                "protocol": "vless",
+                                                                                                                "settings": {
+                                                                                                                    "vnext": [
+                                                                                                                        {
+                                                                                                                            "address": "95.216.125.17",
+                                                                                                                            "port": 443,
+                                                                                                                            "users": [
+                                                                                                                                {
+                                                                                                                                    "id": "b37458f5-8efa-418c-9f9f-0cfbbf41e5fe",
+                                                                                                                                    "encryption": "none",
+                                                                                                                                    "flow": "xtls-rprx-vision"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                },
+                                                                                                                "streamSettings": {
+                                                                                                                    "network": "tcp",
+                                                                                                                    "security": "reality",
+                                                                                                                    "realitySettings": {
+                                                                                                                        "serverName": "asus.com",
+                                                                                                                        "fingerprint": "chrome",
+                                                                                                                        "publicKey": "YNU3-NsquulMjTPTvxCObCUCEWzvYaHtpOctezNeGSo",
+                                                                                                                        "shortId": "1dfc79e3",
+                                                                                                                        "spiderX": "/"
+                                                                                                                    }
+                                                                                                                },
+                                                                                                                "tag": "proxy"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "routing": {
+                                                                                                            "domainStrategy": "IPIfNonMatch",
+                                                                                                            "rules": [
+                                                                                                                {
+                                                                                                                    "type": "field",
+                                                                                                                    "inboundTag": ["socks-in"],
+                                                                                                                    "outboundTag": "proxy"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    }
+2025-03-26 03:52:53.904  5740-5769  VPN_SERVICE             com.example.individualproxy          D  Xray response: {"success":true}
+2025-03-26 03:52:54.924  5740-5770  VPN_SERVICE             com.example.individualproxy          E  Failed to start Xray
+                                                                                                    java.io.IOException: Cannot run program "adb": error=13, Permission denied
+                                                                                                    	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1050)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:709)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:533)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:430)
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService$startXray$1.invokeSuspend(VpnConnectionService.kt:135)
+                                                                                                    	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+                                                                                                    	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+                                                                                                    	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+                                                                                                    	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+                                                                                                    Caused by: java.io.IOException: error=13, Permission denied
+                                                                                                    	at java.lang.UNIXProcess.forkAndExec(Native Method)
+                                                                                                    	at java.lang.UNIXProcess.<init>(UNIXProcess.java:133)
+                                                                                                    	at java.lang.ProcessImpl.start(ProcessImpl.java:141)
+                                                                                                    	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:709) 
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:533) 
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:430) 
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService$startXray$1.invokeSuspend(VpnConnectionService.kt:135) 
+                                                                                                    	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33) 
+                                                                                                    	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108) 
+                                                                                                    	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115) 
+                                                                                                    	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103) 
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584) 
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793) 
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697) 
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684) 
+2025-03-26 03:52:54.924  5740-5770  VPN_SERVICE             com.example.individualproxy          D  Stopping Xray
+2025-03-26 03:52:54.930  5740-5770  VPN_SERVICE             com.example.individualproxy          D  Xray stop called
+2025-03-26 03:52:54.937  5740-5770  VPN_SERVICE             com.example.individualproxy          E  Failed to stop Xray
+                                                                                                    java.io.IOException: Cannot run program "adb": error=13, Permission denied
+                                                                                                    	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1050)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:709)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:533)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:430)
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.stopXray(VpnConnectionService.kt:164)
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.access$stopXray(VpnConnectionService.kt:30)
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService$startXray$1.invokeSuspend(VpnConnectionService.kt:152)
+                                                                                                    	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+                                                                                                    	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+                                                                                                    	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+                                                                                                    	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+                                                                                                    Caused by: java.io.IOException: error=13, Permission denied
+                                                                                                    	at java.lang.UNIXProcess.forkAndExec(Native Method)
+                                                                                                    	at java.lang.UNIXProcess.<init>(UNIXProcess.java:133)
+                                                                                                    	at java.lang.ProcessImpl.start(ProcessImpl.java:141)
+                                                                                                    	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:709) 
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:533) 
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:430) 
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.stopXray(VpnConnectionService.kt:164) 
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.access$stopXray(VpnConnectionService.kt:30) 
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService$startXray$1.invokeSuspend(VpnConnectionService.kt:152) 
+                                                                                                    	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33) 
+                                                                                                    	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108) 
+                                                                                                    	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115) 
+                                                                                                    	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103) 
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584) 
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793) 
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697) 
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684) 
+2025-03-26 03:52:54.949  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Service onDestroy called. Running state: false
+2025-03-26 03:52:54.952  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Stopping Xray
+2025-03-26 03:52:54.954  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Xray stop called
+2025-03-26 03:52:54.960  5740-5740  VPN_SERVICE             com.example.individualproxy          E  Failed to stop Xray
+                                                                                                    java.io.IOException: Cannot run program "adb": error=13, Permission denied
+                                                                                                    	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1050)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:709)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:533)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:430)
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.stopXray(VpnConnectionService.kt:164)
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.onDestroy(VpnConnectionService.kt:203)
+                                                                                                    	at android.app.ActivityThread.handleStopService(ActivityThread.java:5389)
+                                                                                                    	at android.app.ActivityThread.-$$Nest$mhandleStopService(Unknown Source:0)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2620)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:110)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:248)
+                                                                                                    	at android.os.Looper.loop(Looper.java:338)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8982)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+                                                                                                    Caused by: java.io.IOException: error=13, Permission denied
+                                                                                                    	at java.lang.UNIXProcess.forkAndExec(Native Method)
+                                                                                                    	at java.lang.UNIXProcess.<init>(UNIXProcess.java:133)
+                                                                                                    	at java.lang.ProcessImpl.start(ProcessImpl.java:141)
+                                                                                                    	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:709) 
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:533) 
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:430) 
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.stopXray(VpnConnectionService.kt:164) 
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.onDestroy(VpnConnectionService.kt:203) 
+                                                                                                    	at android.app.ActivityThread.handleStopService(ActivityThread.java:5389) 
+                                                                                                    	at android.app.ActivityThread.-$$Nest$mhandleStopService(Unknown Source:0) 
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2620) 
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:110) 
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:248) 
+                                                                                                    	at android.os.Looper.loop(Looper.java:338) 
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8982) 
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932) 
+2025-03-26 03:52:54.961  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Service destroyed
+2025-03-26 03:53:03.488  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Disconnecting VPN
+2025-03-26 03:53:03.524  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Stop VPN service intent sent
+2025-03-26 03:53:03.560  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Service created
+2025-03-26 03:53:03.561  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Received STOP_VPN action
+2025-03-26 03:53:03.562  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Stopping Xray
+2025-03-26 03:53:03.562  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Xray stop called
+2025-03-26 03:53:03.568  5740-5740  VPN_SERVICE             com.example.individualproxy          E  Failed to stop Xray
+                                                                                                    java.io.IOException: Cannot run program "adb": error=13, Permission denied
+                                                                                                    	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1050)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:709)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:533)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:430)
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.stopXray(VpnConnectionService.kt:164)
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.onStartCommand(VpnConnectionService.kt:69)
+                                                                                                    	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:5359)
+                                                                                                    	at android.app.ActivityThread.-$$Nest$mhandleServiceArgs(Unknown Source:0)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2606)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:110)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:248)
+                                                                                                    	at android.os.Looper.loop(Looper.java:338)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8982)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+                                                                                                    Caused by: java.io.IOException: error=13, Permission denied
+                                                                                                    	at java.lang.UNIXProcess.forkAndExec(Native Method)
+                                                                                                    	at java.lang.UNIXProcess.<init>(UNIXProcess.java:133)
+                                                                                                    	at java.lang.ProcessImpl.start(ProcessImpl.java:141)
+                                                                                                    	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:709) 
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:533) 
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:430) 
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.stopXray(VpnConnectionService.kt:164) 
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.onStartCommand(VpnConnectionService.kt:69) 
+                                                                                                    	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:5359) 
+                                                                                                    	at android.app.ActivityThread.-$$Nest$mhandleServiceArgs(Unknown Source:0) 
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2606) 
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:110) 
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:248) 
+                                                                                                    	at android.os.Looper.loop(Looper.java:338) 
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8982) 
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932) 
+2025-03-26 03:53:03.585  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Service onDestroy called. Running state: false
+2025-03-26 03:53:03.586  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Stopping Xray
+2025-03-26 03:53:03.587  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Xray stop called
+2025-03-26 03:53:03.592  5740-5740  VPN_SERVICE             com.example.individualproxy          E  Failed to stop Xray
+                                                                                                    java.io.IOException: Cannot run program "adb": error=13, Permission denied
+                                                                                                    	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1050)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:709)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:533)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:430)
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.stopXray(VpnConnectionService.kt:164)
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.onDestroy(VpnConnectionService.kt:203)
+                                                                                                    	at android.app.ActivityThread.handleStopService(ActivityThread.java:5389)
+                                                                                                    	at android.app.ActivityThread.-$$Nest$mhandleStopService(Unknown Source:0)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2620)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:110)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:248)
+                                                                                                    	at android.os.Looper.loop(Looper.java:338)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8982)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+                                                                                                    Caused by: java.io.IOException: error=13, Permission denied
+                                                                                                    	at java.lang.UNIXProcess.forkAndExec(Native Method)
+                                                                                                    	at java.lang.UNIXProcess.<init>(UNIXProcess.java:133)
+                                                                                                    	at java.lang.ProcessImpl.start(ProcessImpl.java:141)
+                                                                                                    	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:709) 
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:533) 
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:430) 
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.stopXray(VpnConnectionService.kt:164) 
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.onDestroy(VpnConnectionService.kt:203) 
+                                                                                                    	at android.app.ActivityThread.handleStopService(ActivityThread.java:5389) 
+                                                                                                    	at android.app.ActivityThread.-$$Nest$mhandleStopService(Unknown Source:0) 
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2620) 
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:110) 
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:248) 
+                                                                                                    	at android.os.Looper.loop(Looper.java:338) 
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8982) 
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932) 
+2025-03-26 03:53:03.593  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Service destroyed
+2025-03-26 03:53:03.597  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Network unbound from process
+2025-03-26 03:53:03.604  5740-5740  VPN_SERVICE             com.example.individualproxy          D  DNS reset to 10.0.2.3 attempted
+2025-03-26 03:53:03.614  5740-5740  VPN_SERVICE             com.example.individualproxy          D  DNS reset to 8.8.8.8 attempted
+2025-03-26 03:53:03.625  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Network reset attempted
+2025-03-26 03:53:03.655  5740-5802  VPN_SERVICE             com.example.individualproxy          D  Network is available: 101
+2025-03-26 03:53:03.661  5740-5802  VPN_SERVICE             com.example.individualproxy          D  Reported network connectivity as available
+2025-03-26 03:53:03.789  5740-5740  VPN_SERVICE             com.example.individualproxy          E  Failed to release config
+                                                                                                    java.lang.Exception: Failed to release config: 405
+                                                                                                    	at com.example.individualproxy.model.data.repository.VpnRepository.releaseConfig-IoAF18A(VpnRepository.kt:67)
+                                                                                                    	at com.example.individualproxy.model.data.repository.VpnRepository$releaseConfig$1.invokeSuspend(Unknown Source:14)
+                                                                                                    	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+                                                                                                    	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+                                                                                                    	at android.os.Handler.handleCallback(Handler.java:995)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:103)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:248)
+                                                                                                    	at android.os.Looper.loop(Looper.java:338)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8982)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+2025-03-26 03:53:07.633  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Using default config: {
+                                                                                                        "log": {
+                                                                                                            "loglevel": "debug",
+                                                                                                            "access": "/data/user/0/com.example.individualproxy/files/xray_access.log",
+                                                                                                            "error": "/data/user/0/com.example.individualproxy/files/xray_error.log"
+                                                                                                        },
+                                                                                                        "dns": {
+                                                                                                            "servers": [
+                                                                                                                "8.8.8.8",
+                                                                                                                "8.8.4.4"
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        "inbounds": [
+                                                                                                            {
+                                                                                                                "port": 10808,
+                                                                                                                "protocol": "socks",
+                                                                                                                "settings": {
+                                                                                                                    "auth": "noauth",
+                                                                                                                    "udp": true,
+                                                                                                                    "ip": "127.0.0.1"
+                                                                                                                },
+                                                                                                                "tag": "socks-in"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "outbounds": [
+                                                                                                            {
+                                                                                                                "protocol": "vless",
+                                                                                                                "settings": {
+                                                                                                                    "vnext": [
+                                                                                                                        {
+                                                                                                                            "address": "95.216.125.17",
+                                                                                                                            "port": 443,
+                                                                                                                            "users": [
+                                                                                                                                {
+                                                                                                                                    "id": "b37458f5-8efa-418c-9f9f-0cfbbf41e5fe",
+                                                                                                                                    "encryption": "none",
+                                                                                                                                    "flow": "xtls-rprx-vision"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                },
+                                                                                                                "streamSettings": {
+                                                                                                                    "network": "tcp",
+                                                                                                                    "security": "reality",
+                                                                                                                    "realitySettings": {
+                                                                                                                        "serverName": "asus.com",
+                                                                                                                        "fingerprint": "chrome",
+                                                                                                                        "publicKey": "YNU3-NsquulMjTPTvxCObCUCEWzvYaHtpOctezNeGSo",
+                                                                                                                        "shortId": "1dfc79e3",
+                                                                                                                        "spiderX": "/"
+                                                                                                                    }
+                                                                                                                },
+                                                                                                                "tag": "proxy"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "routing": {
+                                                                                                            "domainStrategy": "IPIfNonMatch",
+                                                                                                            "rules": [
+                                                                                                                {
+                                                                                                                    "type": "field",
+                                                                                                                    "inboundTag": ["socks-in"],
+                                                                                                                    "outboundTag": "proxy"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    }
+2025-03-26 03:53:07.633  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Saving config to internal storage: {
+                                                                                                        "log": {
+                                                                                                            "loglevel": "debug",
+                                                                                                            "access": "/data/user/0/com.example.individualproxy/files/xray_access.log",
+                                                                                                            "error": "/data/user/0/com.example.individualproxy/files/xray_error.log"
+                                                                                                        },
+                                                                                                        "dns": {
+                                                                                                            "servers": [
+                                                                                                                "8.8.8.8",
+                                                                                                                "8.8.4.4"
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        "inbounds": [
+                                                                                                            {
+                                                                                                                "port": 10808,
+                                                                                                                "protocol": "socks",
+                                                                                                                "settings": {
+                                                                                                                    "auth": "noauth",
+                                                                                                                    "udp": true,
+                                                                                                                    "ip": "127.0.0.1"
+                                                                                                                },
+                                                                                                                "tag": "socks-in"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "outbounds": [
+                                                                                                            {
+                                                                                                                "protocol": "vless",
+                                                                                                                "settings": {
+                                                                                                                    "vnext": [
+                                                                                                                        {
+                                                                                                                            "address": "95.216.125.17",
+                                                                                                                            "port": 443,
+                                                                                                                            "users": [
+                                                                                                                                {
+                                                                                                                                    "id": "b37458f5-8efa-418c-9f9f-0cfbbf41e5fe",
+                                                                                                                                    "encryption": "none",
+                                                                                                                                    "flow": "xtls-rprx-vision"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                },
+                                                                                                                "streamSettings": {
+                                                                                                                    "network": "tcp",
+                                                                                                                    "security": "reality",
+                                                                                                                    "realitySettings": {
+                                                                                                                        "serverName": "asus.com",
+                                                                                                                        "fingerprint": "chrome",
+                                                                                                                        "publicKey": "YNU3-NsquulMjTPTvxCObCUCEWzvYaHtpOctezNeGSo",
+                                                                                                                        "shortId": "1dfc79e3",
+                                                                                                                        "spiderX": "/"
+                                                                                                                    }
+                                                                                                                },
+                                                                                                                "tag": "proxy"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "routing": {
+                                                                                                            "domainStrategy": "IPIfNonMatch",
+                                                                                                            "rules": [
+                                                                                                                {
+                                                                                                                    "type": "field",
+                                                                                                                    "inboundTag": ["socks-in"],
+                                                                                                                    "outboundTag": "proxy"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    }
+2025-03-26 03:53:07.633  5740-5740  VPN_SERVICE             com.example.individualproxy          D  VPN configuration JSON is valid
+2025-03-26 03:53:07.651  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Service created
+2025-03-26 03:53:07.661  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Using config: eyJEYXREaXIiOiJcL2RhdGFcL3VzZXJcLzBcL2NvbS5leGFtcGxlLmluZGl2aWR1YWxwcm94eVwvZmlsZXNcL2RhdF9maWxlcyIsIkNvbmZpZ1BhdGgiOiJcL2RhdGFcL3VzZXJcLzBcL2NvbS5leGFtcGxlLmluZGl2aWR1YWxwcm94eVwvZmlsZXNcL3Zwbl9jb25maWcuanNvbiJ9
+2025-03-26 03:53:07.664  5740-5770  VPN_SERVICE             com.example.individualproxy          D  Decoded JSON config: {"DatDir":"\/data\/user\/0\/com.example.individualproxy\/files\/dat_files","ConfigPath":"\/data\/user\/0\/com.example.individualproxy\/files\/vpn_config.json"}
+2025-03-26 03:53:07.665  5740-5770  VPN_SERVICE             com.example.individualproxy          D  Xray config from file: {
+                                                                                                        "log": {
+                                                                                                            "loglevel": "debug",
+                                                                                                            "access": "/data/user/0/com.example.individualproxy/files/xray_access.log",
+                                                                                                            "error": "/data/user/0/com.example.individualproxy/files/xray_error.log"
+                                                                                                        },
+                                                                                                        "dns": {
+                                                                                                            "servers": [
+                                                                                                                "8.8.8.8",
+                                                                                                                "8.8.4.4"
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        "inbounds": [
+                                                                                                            {
+                                                                                                                "port": 10808,
+                                                                                                                "protocol": "socks",
+                                                                                                                "settings": {
+                                                                                                                    "auth": "noauth",
+                                                                                                                    "udp": true,
+                                                                                                                    "ip": "127.0.0.1"
+                                                                                                                },
+                                                                                                                "tag": "socks-in"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "outbounds": [
+                                                                                                            {
+                                                                                                                "protocol": "vless",
+                                                                                                                "settings": {
+                                                                                                                    "vnext": [
+                                                                                                                        {
+                                                                                                                            "address": "95.216.125.17",
+                                                                                                                            "port": 443,
+                                                                                                                            "users": [
+                                                                                                                                {
+                                                                                                                                    "id": "b37458f5-8efa-418c-9f9f-0cfbbf41e5fe",
+                                                                                                                                    "encryption": "none",
+                                                                                                                                    "flow": "xtls-rprx-vision"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                },
+                                                                                                                "streamSettings": {
+                                                                                                                    "network": "tcp",
+                                                                                                                    "security": "reality",
+                                                                                                                    "realitySettings": {
+                                                                                                                        "serverName": "asus.com",
+                                                                                                                        "fingerprint": "chrome",
+                                                                                                                        "publicKey": "YNU3-NsquulMjTPTvxCObCUCEWzvYaHtpOctezNeGSo",
+                                                                                                                        "shortId": "1dfc79e3",
+                                                                                                                        "spiderX": "/"
+                                                                                                                    }
+                                                                                                                },
+                                                                                                                "tag": "proxy"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "routing": {
+                                                                                                            "domainStrategy": "IPIfNonMatch",
+                                                                                                            "rules": [
+                                                                                                                {
+                                                                                                                    "type": "field",
+                                                                                                                    "inboundTag": ["socks-in"],
+                                                                                                                    "outboundTag": "proxy"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    }
+2025-03-26 03:53:07.667  5740-5770  VPN_SERVICE             com.example.individualproxy          D  Updated config with port 10809: {
+                                                                                                        "log": {
+                                                                                                            "loglevel": "debug",
+                                                                                                            "access": "/data/user/0/com.example.individualproxy/files/xray_access.log",
+                                                                                                            "error": "/data/user/0/com.example.individualproxy/files/xray_error.log"
+                                                                                                        },
+                                                                                                        "dns": {
+                                                                                                            "servers": [
+                                                                                                                "8.8.8.8",
+                                                                                                                "8.8.4.4"
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        "inbounds": [
+                                                                                                            {
+                                                                                                                "port": 10809,
+                                                                                                                "protocol": "socks",
+                                                                                                                "settings": {
+                                                                                                                    "auth": "noauth",
+                                                                                                                    "udp": true,
+                                                                                                                    "ip": "127.0.0.1"
+                                                                                                                },
+                                                                                                                "tag": "socks-in"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "outbounds": [
+                                                                                                            {
+                                                                                                                "protocol": "vless",
+                                                                                                                "settings": {
+                                                                                                                    "vnext": [
+                                                                                                                        {
+                                                                                                                            "address": "95.216.125.17",
+                                                                                                                            "port": 443,
+                                                                                                                            "users": [
+                                                                                                                                {
+                                                                                                                                    "id": "b37458f5-8efa-418c-9f9f-0cfbbf41e5fe",
+                                                                                                                                    "encryption": "none",
+                                                                                                                                    "flow": "xtls-rprx-vision"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                },
+                                                                                                                "streamSettings": {
+                                                                                                                    "network": "tcp",
+                                                                                                                    "security": "reality",
+                                                                                                                    "realitySettings": {
+                                                                                                                        "serverName": "asus.com",
+                                                                                                                        "fingerprint": "chrome",
+                                                                                                                        "publicKey": "YNU3-NsquulMjTPTvxCObCUCEWzvYaHtpOctezNeGSo",
+                                                                                                                        "shortId": "1dfc79e3",
+                                                                                                                        "spiderX": "/"
+                                                                                                                    }
+                                                                                                                },
+                                                                                                                "tag": "proxy"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "routing": {
+                                                                                                            "domainStrategy": "IPIfNonMatch",
+                                                                                                            "rules": [
+                                                                                                                {
+                                                                                                                    "type": "field",
+                                                                                                                    "inboundTag": ["socks-in"],
+                                                                                                                    "outboundTag": "proxy"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    }
+2025-03-26 03:53:07.708  5740-5770  VPN_SERVICE             com.example.individualproxy          D  Xray response: {"success":true}
+2025-03-26 03:53:08.716  5740-5770  VPN_SERVICE             com.example.individualproxy          E  Failed to start Xray
+                                                                                                    java.io.IOException: Cannot run program "adb": error=13, Permission denied
+                                                                                                    	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1050)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:709)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:533)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:430)
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService$startXray$1.invokeSuspend(VpnConnectionService.kt:135)
+                                                                                                    	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+                                                                                                    	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+                                                                                                    	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+                                                                                                    	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+                                                                                                    Caused by: java.io.IOException: error=13, Permission denied
+                                                                                                    	at java.lang.UNIXProcess.forkAndExec(Native Method)
+                                                                                                    	at java.lang.UNIXProcess.<init>(UNIXProcess.java:133)
+                                                                                                    	at java.lang.ProcessImpl.start(ProcessImpl.java:141)
+                                                                                                    	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:709) 
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:533) 
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:430) 
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService$startXray$1.invokeSuspend(VpnConnectionService.kt:135) 
+                                                                                                    	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33) 
+                                                                                                    	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108) 
+                                                                                                    	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115) 
+                                                                                                    	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103) 
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584) 
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793) 
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697) 
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684) 
+2025-03-26 03:53:08.716  5740-5770  VPN_SERVICE             com.example.individualproxy          D  Stopping Xray
+2025-03-26 03:53:08.720  5740-5770  VPN_SERVICE             com.example.individualproxy          D  Xray stop called
+2025-03-26 03:53:08.725  5740-5770  VPN_SERVICE             com.example.individualproxy          E  Failed to stop Xray
+                                                                                                    java.io.IOException: Cannot run program "adb": error=13, Permission denied
+                                                                                                    	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1050)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:709)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:533)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:430)
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.stopXray(VpnConnectionService.kt:164)
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.access$stopXray(VpnConnectionService.kt:30)
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService$startXray$1.invokeSuspend(VpnConnectionService.kt:152)
+                                                                                                    	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+                                                                                                    	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+                                                                                                    	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+                                                                                                    	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+                                                                                                    Caused by: java.io.IOException: error=13, Permission denied
+                                                                                                    	at java.lang.UNIXProcess.forkAndExec(Native Method)
+                                                                                                    	at java.lang.UNIXProcess.<init>(UNIXProcess.java:133)
+                                                                                                    	at java.lang.ProcessImpl.start(ProcessImpl.java:141)
+                                                                                                    	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:709) 
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:533) 
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:430) 
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.stopXray(VpnConnectionService.kt:164) 
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.access$stopXray(VpnConnectionService.kt:30) 
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService$startXray$1.invokeSuspend(VpnConnectionService.kt:152) 
+                                                                                                    	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33) 
+                                                                                                    	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108) 
+                                                                                                    	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115) 
+                                                                                                    	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103) 
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584) 
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793) 
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697) 
+                                                                                                    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684) 
+2025-03-26 03:53:08.737  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Service onDestroy called. Running state: false
+2025-03-26 03:53:08.740  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Stopping Xray
+2025-03-26 03:53:08.742  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Xray stop called
+2025-03-26 03:53:08.747  5740-5740  VPN_SERVICE             com.example.individualproxy          E  Failed to stop Xray
+                                                                                                    java.io.IOException: Cannot run program "adb": error=13, Permission denied
+                                                                                                    	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1050)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:709)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:533)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:430)
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.stopXray(VpnConnectionService.kt:164)
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.onDestroy(VpnConnectionService.kt:203)
+                                                                                                    	at android.app.ActivityThread.handleStopService(ActivityThread.java:5389)
+                                                                                                    	at android.app.ActivityThread.-$$Nest$mhandleStopService(Unknown Source:0)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2620)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:110)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:248)
+                                                                                                    	at android.os.Looper.loop(Looper.java:338)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8982)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+                                                                                                    Caused by: java.io.IOException: error=13, Permission denied
+                                                                                                    	at java.lang.UNIXProcess.forkAndExec(Native Method)
+                                                                                                    	at java.lang.UNIXProcess.<init>(UNIXProcess.java:133)
+                                                                                                    	at java.lang.ProcessImpl.start(ProcessImpl.java:141)
+                                                                                                    	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:709) 
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:533) 
+                                                                                                    	at java.lang.Runtime.exec(Runtime.java:430) 
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.stopXray(VpnConnectionService.kt:164) 
+                                                                                                    	at com.example.individualproxy.model.data.services.VpnConnectionService.onDestroy(VpnConnectionService.kt:203) 
+                                                                                                    	at android.app.ActivityThread.handleStopService(ActivityThread.java:5389) 
+                                                                                                    	at android.app.ActivityThread.-$$Nest$mhandleStopService(Unknown Source:0) 
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2620) 
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:110) 
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:248) 
+                                                                                                    	at android.os.Looper.loop(Looper.java:338) 
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8982) 
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932) 
+2025-03-26 03:53:08.747  5740-5740  VPN_SERVICE             com.example.individualproxy          D  Service destroyed
