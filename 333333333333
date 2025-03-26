@@ -1,51 +1,17 @@
-Executing tasks: [:app:assembleDebug] in project C:\Users\alekd\Desktop\OOOps
-
-> Task :app:createDebugVariantModel UP-TO-DATE
-> Task :app:preBuild UP-TO-DATE
-> Task :app:preDebugBuild UP-TO-DATE
-> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
-> Task :app:checkDebugAarMetadata UP-TO-DATE
-> Task :app:generateDebugResValues UP-TO-DATE
-> Task :app:mapDebugSourceSetPaths UP-TO-DATE
-> Task :app:generateDebugResources UP-TO-DATE
-> Task :app:mergeDebugResources UP-TO-DATE
-> Task :app:packageDebugResources UP-TO-DATE
-> Task :app:parseDebugLocalResources UP-TO-DATE
-> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
-> Task :app:extractDeepLinksDebug UP-TO-DATE
-> Task :app:processDebugMainManifest UP-TO-DATE
-> Task :app:processDebugManifest UP-TO-DATE
-> Task :app:processDebugManifestForPackage UP-TO-DATE
-> Task :app:processDebugResources UP-TO-DATE
-> Task :app:javaPreCompileDebug UP-TO-DATE
-> Task :app:mergeDebugShaders UP-TO-DATE
-> Task :app:compileDebugShaders NO-SOURCE
-> Task :app:generateDebugAssets UP-TO-DATE
-> Task :app:mergeDebugAssets UP-TO-DATE
-> Task :app:compressDebugAssets UP-TO-DATE
-> Task :app:desugarDebugFileDependencies UP-TO-DATE
-> Task :app:mergeDebugJniLibFolders UP-TO-DATE
-> Task :app:checkDebugDuplicateClasses FAILED
-> Task :app:validateSigningDebug UP-TO-DATE
-> Task :app:writeDebugAppMetadata UP-TO-DATE
-> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
-> Task :app:mergeDebugNativeLibs FAILED
-
-> Task :app:compileDebugKotlin FAILED
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:7:26 Unresolved reference: compose
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:10:17 Unresolved reference: compose
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:11:17 Unresolved reference: compose
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:12:17 Unresolved reference: compose
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:14:17 Unresolved reference: tv
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:15:17 Unresolved reference: tv
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:31:12 Unresolved reference: ExperimentalTvMaterial3Api
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:31:12 An annotation argument must be a compile-time constant
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:53:47 Unresolved reference: vpnApi
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:53:59 Unresolved reference: sessionManager
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:59:9 Unresolved reference: setContent
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:61:17 Unresolved reference: Surface
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:62:32 Unresolved reference: Modifier
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:63:29 Unresolved reference: RectangleShape
+> Task :app:compileDebugKotlin
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:22:17 Unresolved reference: LibV2ray
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:32:7 Redeclaration: VpnConnectionService
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:37:35 Property delegate must have a 'getValue(VpnConnectionService, KProperty<*>)' method. None of the following functions is suitable: 
+public inline operator fun <T> Lazy<Unit>.getValue(thisRef: Any?, property: KProperty<*>): Unit defined in kotlin
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:37:65 Unresolved reference: vpnApi
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:38:51 Property delegate must have a 'getValue(VpnConnectionService, KProperty<*>)' method. None of the following functions is suitable: 
+public inline operator fun <T> Lazy<Unit>.getValue(thisRef: Any?, property: KProperty<*>): Unit defined in kotlin
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:38:81 Unresolved reference: sessionManager
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:111:38 Unresolved reference: LibV2ray
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:112:44 Overload resolution ambiguity: 
+public final fun decode(source: ByteArray, startIndex: Int = ..., endIndex: Int = ...): ByteArray defined in kotlin.io.encoding.Base64.Default
+public final fun decode(source: CharSequence, startIndex: Int = ..., endIndex: Int = ...): ByteArray defined in kotlin.io.encoding.Base64.Default
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:140:13 Unresolved reference: LibV2ray
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/AuthApi.kt:7:8 Unresolved reference: retrofit2
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/AuthApi.kt:8:8 Unresolved reference: retrofit2
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/AuthApi.kt:9:8 Unresolved reference: retrofit2
@@ -72,12 +38,19 @@ e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individual
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/VpnApi.kt:25:69 Unresolved reference: Response
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/repository/VpnRepository.kt:9:8 Unresolved reference: retrofit2
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/repository/VpnRepository.kt:19:27 Unresolved reference: Response
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:16:11 Unresolved reference: libxray
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:32:7 Redeclaration: VpnConnectionService
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:37:35 Property delegate must have a 'getValue(VpnConnectionService, KProperty<*>)' method. None of the following functions is suitable: 
 public inline operator fun <T> Lazy<Unit>.getValue(thisRef: Any?, property: KProperty<*>): Unit defined in kotlin
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:37:65 Unresolved reference: vpnApi
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:38:51 Property delegate must have a 'getValue(VpnConnectionService, KProperty<*>)' method. None of the following functions is suitable: 
 public inline operator fun <T> Lazy<Unit>.getValue(thisRef: Any?, property: KProperty<*>): Unit defined in kotlin
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:38:81 Unresolved reference: sessionManager
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:111:38 Unresolved reference: LibXray
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:112:44 Overload resolution ambiguity: 
+public final fun decode(source: ByteArray, startIndex: Int = ..., endIndex: Int = ...): ByteArray defined in kotlin.io.encoding.Base64.Default
+public final fun decode(source: CharSequence, startIndex: Int = ..., endIndex: Int = ...): ByteArray defined in kotlin.io.encoding.Base64.Default
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:140:13 Unresolved reference: LibXray
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:4:17 Unresolved reference: datastore
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:5:17 Unresolved reference: datastore
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:6:17 Unresolved reference: datastore
@@ -687,6 +660,8 @@ e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individual
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:119:25 Unresolved reference: Color
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:120:29 Unresolved reference: TextAlign
 
+> Task :app:compileDebugKotlin FAILED
+
 FAILURE: Build completed with 3 failures.
 
 1: Task failed with an exception.
@@ -809,6 +784,8 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.tasks.CheckDuplicatesRunnable
+
 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
 	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
 	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
@@ -928,6 +905,8 @@ Execution failed for task ':app:mergeDebugNativeLibs'.
      If you are using jniLibs and CMake IMPORTED targets, see
      https://developer.android.com/r/tools/jniLibs-vs-imported-targets
 
+Caused by: java.lang.RuntimeException: Duplicate class go.Seq found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+
 * Try:
 > Run with --info or --debug option to get more log output.
 > Run with --scan to get full insights.
@@ -1028,6 +1007,8 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
 	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
 	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.tasks.MergeNativeLibsTask$MergeNativeLibsTaskWorkAction
+
 	at java.base/java.util.Optional.orElseGet(Unknown Source)
 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
@@ -1150,6 +1131,8 @@ Execution failed for task ':app:compileDebugKotlin'.
 > Run with --scan to get full insights.
 > Get more help at https://help.gradle.org.
 
+Caused by: com.android.builder.merge.DuplicateRelativeFileException: 2 files found with path 'lib/arm64-v8a/libgojni.so' from inputs:
+
 * Exception is:
 org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileDebugKotlin'.
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:130)
@@ -1242,6 +1225,8 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
 	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+
 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
 	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
 	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
@@ -1358,5 +1343,8 @@ You can use '--warning-mode all' to show the individual deprecation warnings and
 
 For more on this, please refer to https://docs.gradle.org/8.10/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
 
-BUILD FAILED in 6s
+BUILD FAILED in 4s
 25 actionable tasks: 3 executed, 22 up-to-date
+Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Compilation error. See log for more details
+
+
