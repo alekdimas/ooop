@@ -1,0 +1,85 @@
+package com.example.individualproxy
+
+import android.content.Intent
+import android.net.VpnService
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.result.ActivityResultLauncher
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.RectangleShape
+import androidx.lifecycle.ViewModelProvider
+import androidx.tv.material3.ExperimentalTvMaterial3Api
+import androidx.tv.material3.Surface
+import com.example.individualproxy.model.MyApp
+import com.example.individualproxy.model.data.repository.VpnRepository
+import com.example.individualproxy.ui.theme.IndividualProxyTheme
+import com.example.individualproxy.viewModel.AuthViewModel
+import com.example.individualproxy.viewModel.AuthViewModelFactory
+import com.example.individualproxy.viewModel.VpnViewModel
+import com.example.individualproxy.viewModel.VpnViewModelFactory
+import com.example.individualproxy.views.AppNavGraph
+
+class MainActivity : ComponentActivity() {
+    private lateinit var authViewModel: AuthViewModel
+    private lateinit var vpnViewModel: VpnViewModel
+    private lateinit var vpnPermissionLauncher: ActivityResultLauncher<Intent>
+    private var pendingCountry: String? = null
+
+    @OptIn(ExperimentalTvMaterial3Api::class)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        vpnPermissionLauncher = registerForActivityResult(
+            ActivityResultContracts.StartActivityForResult()
+        ) { result ->
+            if (result.resultCode == RESULT_OK) {
+                pendingCountry?.let { country ->
+                    vpnViewModel.connectToVpn(country)
+                }
+            }
+            pendingCountry = null
+        }
+
+        val app = application as MyApp
+
+        authViewModel = ViewModelProvider(
+            this,
+            AuthViewModelFactory(app)
+        )[AuthViewModel::class.java]
+
+        val vpnRepository = VpnRepository(app.vpnApi, app.sessionManager)
+        vpnViewModel = ViewModelProvider(
+            this,
+            VpnViewModelFactory(application, vpnRepository)
+        )[VpnViewModel::class.java]
+
+        setContent {
+            IndividualProxyTheme {
+                Surface(
+                    modifier = Modifier.fillMaxSize(),
+                    shape = RectangleShape
+                ) {
+                    AppNavGraph(
+                        authViewModel = authViewModel,
+                        vpnViewModel = vpnViewModel,
+                        onConnectVpnRequested = { country ->
+                            pendingCountry = country
+                            val intent = VpnService.prepare(this@MainActivity)
+                            if (intent != null) {
+                                vpnPermissionLauncher.launch(intent)
+                            } else {
+                                vpnViewModel.connectToVpn(country)
+                            }
+                        },
+                        onDisconnectVpnRequested = {
+                            vpnViewModel.disconnectVpn()  // Добавлен недостающий параметр
+                        }
+                    )
+                }
+            }
+        }
+    }
+}
