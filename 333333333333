@@ -1,17 +1,17 @@
 > Task :app:compileDebugKotlin
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:22:17 Unresolved reference: LibV2ray
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:32:7 Redeclaration: VpnConnectionService
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:37:35 Property delegate must have a 'getValue(VpnConnectionService, KProperty<*>)' method. None of the following functions is suitable: 
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:16:11 Unresolved reference: libxray
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:33:7 Redeclaration: VpnConnectionService
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:38:35 Property delegate must have a 'getValue(VpnConnectionService, KProperty<*>)' method. None of the following functions is suitable: 
 public inline operator fun <T> Lazy<Unit>.getValue(thisRef: Any?, property: KProperty<*>): Unit defined in kotlin
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:37:65 Unresolved reference: vpnApi
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:38:51 Property delegate must have a 'getValue(VpnConnectionService, KProperty<*>)' method. None of the following functions is suitable: 
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:38:65 Unresolved reference: vpnApi
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:39:51 Property delegate must have a 'getValue(VpnConnectionService, KProperty<*>)' method. None of the following functions is suitable: 
 public inline operator fun <T> Lazy<Unit>.getValue(thisRef: Any?, property: KProperty<*>): Unit defined in kotlin
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:38:81 Unresolved reference: sessionManager
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:111:38 Unresolved reference: LibV2ray
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:112:44 Overload resolution ambiguity: 
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:39:81 Unresolved reference: sessionManager
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:112:38 Unresolved reference: LibXray
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:113:44 Overload resolution ambiguity: 
 public final fun decode(source: ByteArray, startIndex: Int = ..., endIndex: Int = ...): ByteArray defined in kotlin.io.encoding.Base64.Default
 public final fun decode(source: CharSequence, startIndex: Int = ..., endIndex: Int = ...): ByteArray defined in kotlin.io.encoding.Base64.Default
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:140:13 Unresolved reference: LibV2ray
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:141:13 Unresolved reference: LibXray
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/AuthApi.kt:7:8 Unresolved reference: retrofit2
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/AuthApi.kt:8:8 Unresolved reference: retrofit2
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/AuthApi.kt:9:8 Unresolved reference: retrofit2
@@ -46,11 +46,11 @@ e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individual
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:38:51 Property delegate must have a 'getValue(VpnConnectionService, KProperty<*>)' method. None of the following functions is suitable: 
 public inline operator fun <T> Lazy<Unit>.getValue(thisRef: Any?, property: KProperty<*>): Unit defined in kotlin
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:38:81 Unresolved reference: sessionManager
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:111:38 Unresolved reference: LibXray
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:112:44 Overload resolution ambiguity: 
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:118:38 Unresolved reference: LibXray
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:121:44 Overload resolution ambiguity: 
 public final fun decode(source: ByteArray, startIndex: Int = ..., endIndex: Int = ...): ByteArray defined in kotlin.io.encoding.Base64.Default
 public final fun decode(source: CharSequence, startIndex: Int = ..., endIndex: Int = ...): ByteArray defined in kotlin.io.encoding.Base64.Default
-e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:140:13 Unresolved reference: LibXray
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:149:13 Unresolved reference: LibXray
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:4:17 Unresolved reference: datastore
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:5:17 Unresolved reference: datastore
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:6:17 Unresolved reference: datastore
@@ -755,6 +755,8 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.tasks.CheckDuplicatesRunnable
+
 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
 	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
 	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
@@ -784,8 +786,6 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
-Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.tasks.CheckDuplicatesRunnable
-
 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
 	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
 	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
@@ -849,6 +849,8 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
 	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
 Caused by: java.lang.RuntimeException: Duplicate class go.Seq found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+Caused by: java.lang.RuntimeException: Duplicate class go.Seq found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+
 Duplicate class go.Seq$GoObject found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
 Duplicate class go.Seq$GoRef found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
 Duplicate class go.Seq$GoRefQueue found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
@@ -905,8 +907,6 @@ Execution failed for task ':app:mergeDebugNativeLibs'.
      If you are using jniLibs and CMake IMPORTED targets, see
      https://developer.android.com/r/tools/jniLibs-vs-imported-targets
 
-Caused by: java.lang.RuntimeException: Duplicate class go.Seq found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
-
 * Try:
 > Run with --info or --debug option to get more log output.
 > Run with --scan to get full insights.
@@ -949,6 +949,8 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:mer
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.base/java.lang.Thread.run(Unknown Source)
 Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.tasks.MergeNativeLibsTask$MergeNativeLibsTaskWorkAction
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.tasks.MergeNativeLibsTask$MergeNativeLibsTaskWorkAction
+
 	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:287)
 	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWorkTracker.java:130)
 	at org.gradle.internal.Factories$1.create(Factories.java:31)
@@ -1007,8 +1009,6 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
 	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
 	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
-Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.tasks.MergeNativeLibsTask$MergeNativeLibsTaskWorkAction
-
 	at java.base/java.util.Optional.orElseGet(Unknown Source)
 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
@@ -1080,6 +1080,8 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.base/java.lang.Thread.run(Unknown Source)
 Caused by: com.android.builder.merge.DuplicateRelativeFileException: 2 files found with path 'lib/arm64-v8a/libgojni.so' from inputs:
+Caused by: com.android.builder.merge.DuplicateRelativeFileException: 2 files found with path 'lib/arm64-v8a/libgojni.so' from inputs:
+
  - C:\Users\alekd\.gradle\caches\8.10\transforms\b2627d340b067e6dde4531444aeddf56\transformed\libXray\jni\arm64-v8a\libgojni.so
  - C:\Users\alekd\.gradle\caches\8.10\transforms\ed5e887bc80f0f4f01339eda5a9ba581\transformed\xrayLite-release\jni\arm64-v8a\libgojni.so
 If you are using jniLibs and CMake IMPORTED targets, see
@@ -1131,8 +1133,6 @@ Execution failed for task ':app:compileDebugKotlin'.
 > Run with --scan to get full insights.
 > Get more help at https://help.gradle.org.
 
-Caused by: com.android.builder.merge.DuplicateRelativeFileException: 2 files found with path 'lib/arm64-v8a/libgojni.so' from inputs:
-
 * Exception is:
 org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileDebugKotlin'.
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:130)
@@ -1171,6 +1171,8 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:com
 	at java.base/java.lang.Thread.run(Unknown Source)
 Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
 	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:287)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+
 	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWorkTracker.java:130)
 	at org.gradle.internal.Factories$1.create(Factories.java:31)
 	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:335)
@@ -1225,8 +1227,6 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
 	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
-Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
-
 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
 	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
 	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
@@ -1302,6 +1302,8 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at java.base/java.lang.Thread.run(Unknown Source)
 Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Compilation error. See log for more details
 	at org.jetbrains.kotlin.gradle.tasks.TasksUtilsKt.throwExceptionIfCompilationFailed(tasksUtils.kt:22)
+Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Compilation error. See log for more details
+
 	at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.run(GradleKotlinCompilerWork.kt:144)
 	at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction.execute(GradleCompilerRunnerWithWorkers.kt:76)
 	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
@@ -1343,8 +1345,6 @@ You can use '--warning-mode all' to show the individual deprecation warnings and
 
 For more on this, please refer to https://docs.gradle.org/8.10/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
 
-BUILD FAILED in 4s
+BUILD FAILED in 9s
 25 actionable tasks: 3 executed, 22 up-to-date
-Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Compilation error. See log for more details
-
 
