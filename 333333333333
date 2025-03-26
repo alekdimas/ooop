@@ -1,0 +1,1364 @@
+Executing tasks: [:app:assembleDebug] in project C:\Users\alekd\Desktop\OOOps
+
+> Task :app:createDebugVariantModel UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses FAILED
+> Task :app:mergeDebugResources
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:processDebugManifestForPackage
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugNativeLibs FAILED
+> Task :app:processDebugResources
+
+> Task :app:compileDebugKotlin
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:7:26 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:10:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:11:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:12:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:14:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:15:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:31:12 Unresolved reference: ExperimentalTvMaterial3Api
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:31:12 An annotation argument must be a compile-time constant
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:53:47 Unresolved reference: vpnApi
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:53:59 Unresolved reference: sessionManager
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:59:9 Unresolved reference: setContent
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:61:17 Unresolved reference: Surface
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:62:32 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:63:29 Unresolved reference: RectangleShape
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/AuthApi.kt:7:8 Unresolved reference: retrofit2
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/AuthApi.kt:8:8 Unresolved reference: retrofit2
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/AuthApi.kt:9:8 Unresolved reference: retrofit2
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/AuthApi.kt:14:6 Unresolved reference: GET
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/AuthApi.kt:17:6 Unresolved reference: POST
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/AuthApi.kt:18:32 Unresolved reference: Body
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/UpdateApi.kt:4:8 Unresolved reference: retrofit2
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/UpdateApi.kt:7:6 Unresolved reference: GET
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/VpnApi.kt:5:8 Unresolved reference: retrofit2
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/VpnApi.kt:6:8 Unresolved reference: retrofit2
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/VpnApi.kt:7:8 Unresolved reference: retrofit2
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/VpnApi.kt:8:8 Unresolved reference: retrofit2
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/VpnApi.kt:9:8 Unresolved reference: retrofit2
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/VpnApi.kt:13:6 Unresolved reference: GET
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/VpnApi.kt:15:6 Unresolved reference: GET
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/VpnApi.kt:17:10 Unresolved reference: Query
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/VpnApi.kt:18:10 Unresolved reference: Query
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/VpnApi.kt:19:8 Unresolved reference: Response
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/VpnApi.kt:21:6 Unresolved reference: POST
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/VpnApi.kt:22:32 Unresolved reference: Body
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/VpnApi.kt:22:69 Unresolved reference: Response
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/VpnApi.kt:24:6 Unresolved reference: POST
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/VpnApi.kt:25:36 Unresolved reference: Body
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/api/VpnApi.kt:25:69 Unresolved reference: Response
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/repository/VpnRepository.kt:9:8 Unresolved reference: retrofit2
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/repository/VpnRepository.kt:19:27 Unresolved reference: Response
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:37:35 Property delegate must have a 'getValue(VpnConnectionService, KProperty<*>)' method. None of the following functions is suitable: 
+public inline operator fun <T> Lazy<Unit>.getValue(thisRef: Any?, property: KProperty<*>): Unit defined in kotlin
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:37:65 Unresolved reference: vpnApi
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:38:51 Property delegate must have a 'getValue(VpnConnectionService, KProperty<*>)' method. None of the following functions is suitable: 
+public inline operator fun <T> Lazy<Unit>.getValue(thisRef: Any?, property: KProperty<*>): Unit defined in kotlin
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/services/VpnConnectionService.kt:38:81 Unresolved reference: sessionManager
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:4:17 Unresolved reference: datastore
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:5:17 Unresolved reference: datastore
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:6:17 Unresolved reference: datastore
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:7:17 Unresolved reference: datastore
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:8:17 Unresolved reference: datastore
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:9:17 Unresolved reference: datastore
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:14:24 Unresolved reference: DataStore
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:14:43 Unresolved reference: datastore
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:14:86 Unresolved reference: preferencesDataStore
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:20:27 Unresolved reference: intPreferencesKey
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:21:25 Unresolved reference: stringPreferencesKey
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:22:33 Unresolved reference: booleanPreferencesKey
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:23:31 Unresolved reference: booleanPreferencesKey
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:24:26 Unresolved reference: stringPreferencesKey
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:28:26 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:36:71 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:42:64 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:45:62 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:50:37 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:60:26 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:65:26 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/data/session/SessionManager.kt:70:25 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Color.kt:3:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Color.kt:5:16 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Color.kt:6:20 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Color.kt:7:14 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Color.kt:9:16 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Color.kt:10:20 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Color.kt:11:14 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Theme.kt:3:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Theme.kt:4:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Theme.kt:5:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Theme.kt:6:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Theme.kt:7:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Theme.kt:8:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Theme.kt:10:8 Unresolved reference: ExperimentalTvMaterial3Api
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Theme.kt:10:8 An annotation argument must be a compile-time constant
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Theme.kt:11:2 Unresolved reference: Composable
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Theme.kt:13:30 Unresolved reference: isSystemInDarkTheme
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Theme.kt:14:15 Unresolved reference: Composable
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Theme.kt:17:9 Unresolved reference: darkColorScheme
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Theme.kt:23:9 Unresolved reference: lightColorScheme
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Theme.kt:29:5 Unresolved reference: MaterialTheme
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Type.kt:3:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Type.kt:4:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Type.kt:5:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Type.kt:6:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Type.kt:7:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Type.kt:8:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Type.kt:11:8 Unresolved reference: ExperimentalTvMaterial3Api
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Type.kt:11:8 An annotation argument must be a compile-time constant
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Type.kt:12:18 Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public operator fun <T, R> DeepRecursiveFunction<TypeVariable(T), TypeVariable(R)>.invoke(value: TypeVariable(T)): TypeVariable(R) defined in kotlin
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Type.kt:13:17 Unresolved reference: TextStyle
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Type.kt:14:22 Unresolved reference: FontFamily
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Type.kt:15:22 Unresolved reference: FontWeight
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Type.kt:16:23 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Type.kt:17:25 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/ui/theme/Type.kt:18:29 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:7:27 Unresolved reference: viewModelScope
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:11:19 Unresolved reference: zxing
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:12:19 Unresolved reference: zxing
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:13:19 Unresolved reference: zxing
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:14:19 Unresolved reference: zxing
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:20:8 Unresolved reference: retrofit2
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:48:28 Unresolved reference: QRCodeWriter
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:50:28 Unresolved reference: BitMatrix
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:50:69 Unresolved reference: BarcodeFormat
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:58:21 Unresolved reference: WriterException
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:65:9 Unresolved reference: viewModelScope
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:66:24 Suspend function 'emit' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:69:53 Suspend function 'getQrCode' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:70:30 Suspend function 'emit' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:75:39 Suspend function 'emit' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:83:25 Unresolved reference: HttpException
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:85:31 Suspend function 'emit' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:89:31 Suspend function 'emit' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:92:31 Suspend function 'emit' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:94:28 Suspend function 'emit' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:100:9 Unresolved reference: viewModelScope
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:101:13 Suspend function 'delay' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:108:24 Unresolved reference: viewModelScope
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:112:53 Suspend function 'getAuthStatus' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:113:38 Suspend function 'emit' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:117:40 Suspend function 'saveSession' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:118:39 Suspend function 'emit' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:124:17 Suspend function 'delay' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:130:9 Unresolved reference: viewModelScope
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:133:31 Suspend function 'emit' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModel.kt:133:51 Suspend function 'checkIfAuthorized' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModelFactory.kt:14:53 Unresolved reference: authApi
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/AuthViewModelFactory.kt:14:66 Unresolved reference: sessionManager
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/VpnViewModel.kt:13:27 Unresolved reference: viewModelScope
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/VpnViewModel.kt:47:9 Unresolved reference: viewModelScope
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/VpnViewModel.kt:48:46 Suspend function 'getVpnEnabledState' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/VpnViewModel.kt:50:44 Suspend function 'collect' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/VpnViewModel.kt:57:9 Unresolved reference: viewModelScope
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/VpnViewModel.kt:59:24 Suspend function 'getCountries' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/VpnViewModel.kt:74:9 Unresolved reference: viewModelScope
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/VpnViewModel.kt:75:24 Suspend function 'getVpnConfig' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/VpnViewModel.kt:85:36 Suspend function 'setVpnEnabled' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/VpnViewModel.kt:165:32 Suspend function 'setVpnEnabled' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/VpnViewModel.kt:229:9 Unresolved reference: viewModelScope
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/VpnViewModel.kt:231:24 Suspend function 'setVpnEnabled' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/VpnViewModel.kt:233:24 Suspend function 'clearConfig' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/viewModel/VpnViewModel.kt:234:13 Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public fun CoroutineScope.launch(context: CoroutineContext = ..., start: CoroutineStart = ..., block: suspend CoroutineScope.() -> Unit): Job defined in kotlinx.coroutines
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:5:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:6:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:7:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:8:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:9:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:10:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:11:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:12:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:13:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:14:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:15:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:16:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:17:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:18:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:19:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:20:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:21:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:22:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:23:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:24:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:25:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:26:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:27:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:28:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:29:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:30:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:31:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:32:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:33:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:34:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:35:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:36:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:37:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:38:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:39:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:40:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:41:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:42:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:43:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:44:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:45:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:46:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:47:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:48:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:49:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:50:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:51:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:52:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:56:5 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:58:16 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:60:5 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:61:23 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:67:8 Unresolved reference: ExperimentalTvMaterial3Api
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:67:8 An annotation argument must be a compile-time constant
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:68:2 Unresolved reference: Composable
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:76:30 Unresolved reference: remember
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:76:41 Unresolved reference: mutableStateOf
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:77:32 Unresolved reference: remember
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:77:43 Unresolved reference: mutableStateOf
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:79:51 Unresolved reference: collectAsState
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:80:52 Unresolved reference: collectAsState
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:81:52 Unresolved reference: collectAsState
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:83:45 Unresolved reference: collectAsState
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:86:24 Unresolved reference: it
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:90:28 Unresolved reference: animateColorAsState
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:91:41 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:91:64 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:92:25 Unresolved reference: tween
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:95:22 Unresolved reference: animateColorAsState
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:96:41 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:96:64 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:97:25 Unresolved reference: tween
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:100:24 Unresolved reference: animateColorAsState
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:101:41 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:101:64 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:102:25 Unresolved reference: tween
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:105:5 Unresolved reference: LaunchedEffect
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:110:5 Unresolved reference: Row
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:111:20 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:113:25 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:128:9 Unresolved reference: Column
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:129:24 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:131:29 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:132:35 Unresolved reference: Alignment
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:134:13 Unresolved reference: Row
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:135:28 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:136:41 Unresolved reference: Arrangement
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:138:17 Unresolved reference: Row
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:139:21 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:141:39 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:142:33 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:143:38 Unresolved reference: FontWeight
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:144:36 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:144:62 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:146:21 Unresolved reference: Button
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:148:34 Unresolved reference: ButtonDefaults
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:149:46 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:150:44 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:152:36 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:153:48 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:153:62 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:157:25 Unresolved reference: Row
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:158:49 Unresolved reference: Alignment
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:159:40 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:160:58 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:162:29 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:165:47 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:167:44 Unresolved reference: TextOverflow
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:178:13 Unresolved reference: Spacer
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:178:31 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:178:50 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:180:36 Unresolved reference: remember
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:180:47 Unresolved reference: mutableStateOf
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:181:39 Unresolved reference: remember
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:181:50 Unresolved reference: mutableStateOf
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:183:13 Unresolved reference: Box
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:184:28 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:186:32 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:188:33 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:189:33 Unresolved reference: RoundedCornerShape
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:189:55 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:191:33 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:193:17 Unresolved reference: Row
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:194:32 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:195:45 Unresolved reference: Arrangement
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:196:41 Unresolved reference: Alignment
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:198:21 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:200:39 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:201:33 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:203:21 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:205:39 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:206:33 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:211:13 Unresolved reference: Spacer
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:211:31 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:211:50 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:214:17 Unresolved reference: Row
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:214:41 Unresolved reference: Alignment
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:215:21 Unresolved reference: Box
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:216:36 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:217:41 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:217:81 Unresolved reference: RoundedCornerShape
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:217:103 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:218:41 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:221:25 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:223:43 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:224:37 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:230:17 Unresolved reference: Button
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:240:30 Unresolved reference: ButtonDefaults
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:244:32 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:245:35 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:248:29 Unresolved reference: drawIntoCanvas
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:248:46 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:258:37 Unresolved reference: center
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:258:47 Unresolved reference: center
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:258:57 Unresolved reference: size
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:264:21 Unresolved reference: Box
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:265:36 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:266:44 Unresolved reference: Alignment
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:268:25 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:270:43 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:276:17 Unresolved reference: Spacer
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:276:35 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:276:54 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:277:17 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:279:35 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:280:29 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:283:13 Unresolved reference: Spacer
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:283:31 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:283:50 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:286:17 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:288:35 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:289:29 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:290:32 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:290:52 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:294:13 Unresolved reference: Button
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:295:25 Unresolved reference: ButtonDefaults
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:295:46 Unresolved reference: RoundedCornerShape
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:295:68 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:300:26 Unresolved reference: ButtonDefaults
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:301:38 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:302:36 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:303:45 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:304:43 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:306:28 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:308:32 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:311:17 Unresolved reference: Box
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:312:32 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:313:40 Unresolved reference: Alignment
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:315:21 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:317:39 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:318:37 Unresolved reference: TextAlign
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:327:8 Unresolved reference: ExperimentalTvMaterial3Api
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:327:8 An annotation argument must be a compile-time constant
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:328:2 Unresolved reference: Composable
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:342:42 Unresolved reference: collectAsState
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:343:42 Unresolved reference: collectAsState
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:344:43 Unresolved reference: collectAsState
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:346:5 Unresolved reference: LaunchedEffect
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:353:5 Unresolved reference: Column
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:354:20 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:355:24 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:357:25 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:358:25 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:360:9 Unresolved reference: Row
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:361:24 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:362:37 Unresolved reference: Arrangement
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:363:33 Unresolved reference: Alignment
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:365:13 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:367:25 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:368:31 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:369:30 Unresolved reference: FontWeight
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:371:13 Unresolved reference: Button
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:373:26 Unresolved reference: ButtonDefaults
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:374:38 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:375:36 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:377:28 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:379:17 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:379:41 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:383:9 Unresolved reference: Spacer
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:383:27 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:383:46 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:386:13 Unresolved reference: CircularProgressIndicator
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:387:28 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:389:33 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:393:13 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:395:25 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:396:28 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:396:48 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:400:13 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:402:25 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:403:28 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:403:48 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:406:13 Unresolved reference: LazyColumn
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:407:17 Unresolved reference: items
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:407:36 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:408:37 Unresolved reference: remember
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:408:48 Unresolved reference: mutableStateOf
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:410:43 Unresolved reference: animateColorAsState
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:412:48 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:413:43 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:414:37 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:416:41 Unresolved reference: tween
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:418:21 Unresolved reference: Button
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:423:34 Unresolved reference: ButtonDefaults
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:425:60 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:426:34 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:428:36 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:430:51 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:431:57 Variable expected
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:431:65 Unresolved reference: it
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:433:25 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:435:43 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/MainScreen.kt:436:40 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:3:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:4:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:5:17 Unresolved reference: navigation
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:6:17 Unresolved reference: navigation
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:7:17 Unresolved reference: navigation
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:8:17 Unresolved reference: navigation
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:9:17 Unresolved reference: navigation
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:20:2 Unresolved reference: Composable
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:26:25 Unresolved reference: rememberNavController
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:28:5 Unresolved reference: NavHost
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:32:9 Unresolved reference: addMainScreen
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:38:9 Unresolved reference: addQRAuthScreen
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:39:9 Unresolved reference: addVersionScreen
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:43:5 Unresolved reference: NavGraphBuilder
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:44:20 Unresolved reference: NavController
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:61:5 Unresolved reference: NavGraphBuilder
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:61:52 Unresolved reference: NavController
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:75:5 Unresolved reference: NavGraphBuilder
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/NavController.kt:75:53 Unresolved reference: NavController
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:4:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:5:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:6:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:7:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:8:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:9:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:10:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:11:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:12:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:13:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:14:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:15:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:16:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:17:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:18:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:19:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:20:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:21:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:22:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:23:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:24:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:25:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:26:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:27:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:28:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:29:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:30:37 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:36:8 Unresolved reference: ExperimentalTvMaterial3Api
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:36:8 An annotation argument must be a compile-time constant
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:37:2 Unresolved reference: Composable
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:42:36 Unresolved reference: viewModel
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:44:48 Unresolved reference: collectAsState
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:45:54 Unresolved reference: collectAsState
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:46:42 Unresolved reference: collectAsState
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:49:5 Unresolved reference: LaunchedEffect
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:52:5 Unresolved reference: LaunchedEffect
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:54:13 Suspend function 'delay' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:60:5 Unresolved reference: Column
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:61:20 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:63:25 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:64:31 Unresolved reference: Alignment
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:66:9 Unresolved reference: Spacer
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:66:27 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:66:46 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:69:9 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:71:27 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:72:26 Unresolved reference: FontWeight
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:73:21 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:74:25 Unresolved reference: TextAlign
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:77:9 Unresolved reference: Spacer
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:77:27 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:77:46 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:79:9 Unresolved reference: Box
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:80:24 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:81:27 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:82:29 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:82:56 Unresolved reference: RoundedCornerShape
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:82:78 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:83:32 Unresolved reference: Alignment
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:86:17 Unresolved reference: CircularProgressIndicator
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:87:32 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:88:36 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:92:37 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:93:21 Unresolved reference: Image
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:96:36 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:96:54 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:98:22 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:100:29 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:101:35 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:102:33 Unresolved reference: TextAlign
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:107:9 Unresolved reference: Spacer
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:107:27 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:107:46 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:109:13 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:111:25 Unresolved reference: it
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:114:31 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:115:25 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:116:29 Unresolved reference: TextAlign
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:119:13 Unresolved reference: Spacer
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:119:31 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:119:50 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:121:13 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:123:31 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:124:25 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:125:29 Unresolved reference: TextAlign
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:126:28 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Qr-code%20frame.kt:126:61 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:3:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:4:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:5:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:6:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:7:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:8:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:9:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:10:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:11:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:12:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:13:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:14:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:15:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:16:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:17:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:18:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:19:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:20:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:21:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:22:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:23:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:24:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:26:2 Unresolved reference: Composable
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:34:9 Unresolved reference: Box
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:35:24 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:37:29 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:40:13 Unresolved reference: Box
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:41:28 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:42:28 Unresolved reference: Alignment
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:43:33 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:44:33 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:45:33 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:48:17 Unresolved reference: Column
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:49:43 Unresolved reference: Alignment
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:50:43 Unresolved reference: Arrangement
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:52:21 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:54:33 Unresolved reference: MaterialTheme
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:55:33 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:57:21 Unresolved reference: Spacer
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:57:39 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:57:58 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:58:21 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:60:33 Unresolved reference: MaterialTheme
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:61:33 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:62:37 Unresolved reference: TextAlign
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:64:21 Unresolved reference: Spacer
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:64:39 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:64:58 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:65:21 Unresolved reference: Row
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:66:49 Unresolved reference: Arrangement
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:67:36 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:70:25 Unresolved reference: Button
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:72:40 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:73:38 Unresolved reference: ButtonDefaults
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:73:76 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:74:37 Unresolved reference: ButtonDefaults
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:74:58 Unresolved reference: RoundedCornerShape
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:74:79 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:76:29 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:79:25 Unresolved reference: Spacer
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:79:43 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:79:61 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:82:25 Unresolved reference: Button
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:84:40 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:85:38 Unresolved reference: ButtonDefaults
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:85:77 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:86:37 Unresolved reference: ButtonDefaults
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:86:58 Unresolved reference: RoundedCornerShape
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:86:79 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:88:29 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/UpdateDialog.kt:88:61 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:3:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:4:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:5:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:6:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:7:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:8:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:9:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:10:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:11:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:12:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:13:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:14:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:15:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:16:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:17:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:18:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:19:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:20:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:21:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:22:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:23:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:24:17 Unresolved reference: compose
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:25:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:26:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:27:17 Unresolved reference: tv
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:30:2 Unresolved reference: Composable
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:52:25 Unresolved reference: remember
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:52:36 Unresolved reference: mutableStateOf
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:55:5 Unresolved reference: Box
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:56:20 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:58:25 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:61:9 Unresolved reference: LazyColumn
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:62:24 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:64:35 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:66:13 Unresolved reference: items
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:66:39 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:69:17 Unresolved reference: Column
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:70:32 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:72:36 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:75:43 Variable expected
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:78:37 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:78:50 Unresolved reference: RoundedCornerShape
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:78:71 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:79:37 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:80:35 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:80:39 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:81:43 Unresolved reference: Arrangement
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:84:21 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:86:39 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:87:33 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:89:21 Unresolved reference: Spacer
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:89:39 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:89:57 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:93:25 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:95:43 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:96:37 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:103:9 Unresolved reference: Button
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:105:22 Unresolved reference: ButtonDefaults
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:106:34 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:107:41 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:109:21 Unresolved reference: ButtonDefaults
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:109:42 Unresolved reference: RoundedCornerShape
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:109:64 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:110:24 Unresolved reference: Modifier
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:111:24 Unresolved reference: Alignment
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:112:29 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:114:28 Unresolved reference: dp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:116:13 Unresolved reference: Text
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:118:31 Unresolved reference: sp
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:119:25 Unresolved reference: Color
+e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:120:29 Unresolved reference: TextAlign
+
+> Task :app:compileDebugKotlin FAILED
+
+FAILURE: Build completed with 3 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:checkDebugDuplicateClasses'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.CheckDuplicatesRunnable
+   > Duplicate class go.Seq found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+     Duplicate class go.Seq$GoObject found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+     Duplicate class go.Seq$GoRef found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+     Duplicate class go.Seq$GoRefQueue found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+     Duplicate class go.Seq$GoRefQueue$1 found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+     Duplicate class go.Seq$Proxy found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+     Duplicate class go.Seq$Ref found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+     Duplicate class go.Seq$RefMap found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+     Duplicate class go.Seq$RefTracker found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+     Duplicate class go.Universe found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+     Duplicate class go.Universe$proxyerror found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+     Duplicate class go.error found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+     
+     Go to the documentation to learn how to <a href="d.android.com/r/tools/classpath-sync-errors">Fix dependency resolution errors</a>.
+
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:checkDebugDuplicateClasses'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:130)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:293)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:128)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.tasks.CheckDuplicatesRunnable
+	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:287)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWorkTracker.java:130)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:335)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:318)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLock(DefaultWorkerLeaseService.java:323)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:126)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:92)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForAll(DefaultAsyncWorkTracker.java:78)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:66)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:252)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:229)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:212)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:195)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:162)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:50)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:28)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+	at org.gradle.internal.Either$Right.fold(Either.java:175)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:107)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:56)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:64)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:43)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:125)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:56)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:289)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:48)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:35)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:127)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+Caused by: java.lang.RuntimeException: Duplicate class go.Seq found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+Duplicate class go.Seq$GoObject found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+Duplicate class go.Seq$GoRef found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+Duplicate class go.Seq$GoRefQueue found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+Duplicate class go.Seq$GoRefQueue$1 found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+Duplicate class go.Seq$Proxy found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+Duplicate class go.Seq$Ref found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+Duplicate class go.Seq$RefMap found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+Duplicate class go.Seq$RefTracker found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+Duplicate class go.Universe found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+Duplicate class go.Universe$proxyerror found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+Duplicate class go.error found in modules libXray.aar -> libXray-runtime (libXray.aar) and xrayLite-release.aar -> xrayLite-release-runtime (xrayLite-release.aar)
+
+Go to the documentation to learn how to <a href="d.android.com/r/tools/classpath-sync-errors">Fix dependency resolution errors</a>.
+	at com.android.build.gradle.internal.tasks.CheckDuplicateClassesDelegate.run(CheckDuplicateClassesDelegate.kt:65)
+	at com.android.build.gradle.internal.tasks.CheckDuplicatesRunnable.execute(CheckDuplicateClassesDelegate.kt:91)
+	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
+	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:100)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:174)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:194)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:127)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:169)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:263)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:127)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:132)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:164)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:133)
+	... 2 more
+
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:mergeDebugNativeLibs'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.MergeNativeLibsTask$MergeNativeLibsTaskWorkAction
+   > 2 files found with path 'lib/arm64-v8a/libgojni.so' from inputs:
+      - C:\Users\alekd\.gradle\caches\8.10\transforms\b2627d340b067e6dde4531444aeddf56\transformed\libXray\jni\arm64-v8a\libgojni.so
+      - C:\Users\alekd\.gradle\caches\8.10\transforms\ed5e887bc80f0f4f01339eda5a9ba581\transformed\xrayLite-release\jni\arm64-v8a\libgojni.so
+     If you are using jniLibs and CMake IMPORTED targets, see
+     https://developer.android.com/r/tools/jniLibs-vs-imported-targets
+
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:mergeDebugNativeLibs'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:130)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:293)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:128)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.tasks.MergeNativeLibsTask$MergeNativeLibsTaskWorkAction
+	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:287)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWorkTracker.java:130)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:335)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:318)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLock(DefaultWorkerLeaseService.java:323)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:126)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:92)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForAll(DefaultAsyncWorkTracker.java:78)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:66)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:252)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:229)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:212)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:195)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:162)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:50)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:28)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+	at org.gradle.internal.Either$Right.fold(Either.java:175)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+	at java.base/java.util.Optional.orElseGet(Unknown Source)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:107)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:56)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:64)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:43)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:125)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:61)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:289)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+	at java.base/java.util.Optional.orElseGet(Unknown Source)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:48)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:35)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:127)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: com.android.builder.merge.DuplicateRelativeFileException: 2 files found with path 'lib/arm64-v8a/libgojni.so' from inputs:
+ - C:\Users\alekd\.gradle\caches\8.10\transforms\b2627d340b067e6dde4531444aeddf56\transformed\libXray\jni\arm64-v8a\libgojni.so
+ - C:\Users\alekd\.gradle\caches\8.10\transforms\ed5e887bc80f0f4f01339eda5a9ba581\transformed\xrayLite-release\jni\arm64-v8a\libgojni.so
+If you are using jniLibs and CMake IMPORTED targets, see
+https://developer.android.com/r/tools/jniLibs-vs-imported-targets
+	at com.android.build.gradle.internal.tasks.MergeNativeLibsTask$MergeNativeLibsTaskWorkAction.run(MergeNativeLibsTask.kt:228)
+	at com.android.build.gradle.internal.profile.ProfileAwareWorkAction.execute(ProfileAwareWorkAction.kt:74)
+	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
+	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:100)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:174)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:194)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:127)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:169)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:263)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:127)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:132)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:164)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:133)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	... 5 more
+
+==============================================================================
+
+3: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileDebugKotlin'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:130)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:293)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:128)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:287)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWorkTracker.java:130)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:335)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:318)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLock(DefaultWorkerLeaseService.java:323)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:126)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:92)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForAll(DefaultAsyncWorkTracker.java:78)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:66)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:252)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:229)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:212)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:195)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:162)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:50)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:28)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+	at org.gradle.internal.Either$Right.fold(Either.java:175)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+	at java.base/java.util.Optional.orElseGet(Unknown Source)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:107)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:56)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:64)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:43)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:125)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:61)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:289)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+	at java.base/java.util.Optional.orElseGet(Unknown Source)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:48)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:35)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:127)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Compilation error. See log for more details
+	at org.jetbrains.kotlin.gradle.tasks.TasksUtilsKt.throwExceptionIfCompilationFailed(tasksUtils.kt:22)
+	at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.run(GradleKotlinCompilerWork.kt:144)
+	at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction.execute(GradleCompilerRunnerWithWorkers.kt:76)
+	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
+	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:100)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:174)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:194)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:127)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:169)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:263)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:127)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:132)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:164)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:133)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	... 5 more
+
+==============================================================================
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.10/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 20s
+25 actionable tasks: 11 executed, 14 up-to-date
