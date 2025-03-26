@@ -8,30 +8,30 @@ Executing tasks: [:app:assembleDebug] in project C:\Users\alekd\Desktop\OOOps
 > Task :app:generateDebugResValues UP-TO-DATE
 > Task :app:mapDebugSourceSetPaths UP-TO-DATE
 > Task :app:generateDebugResources UP-TO-DATE
-> Task :app:packageDebugResources
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
 > Task :app:parseDebugLocalResources UP-TO-DATE
-> Task :app:createDebugCompatibleScreenManifests
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
 > Task :app:extractDeepLinksDebug UP-TO-DATE
-> Task :app:processDebugMainManifest
-> Task :app:processDebugManifest
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
 > Task :app:javaPreCompileDebug UP-TO-DATE
 > Task :app:mergeDebugShaders UP-TO-DATE
 > Task :app:compileDebugShaders NO-SOURCE
 > Task :app:generateDebugAssets UP-TO-DATE
 > Task :app:mergeDebugAssets UP-TO-DATE
 > Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
 > Task :app:mergeDebugJniLibFolders UP-TO-DATE
 > Task :app:checkDebugDuplicateClasses FAILED
-> Task :app:mergeDebugResources
 > Task :app:validateSigningDebug UP-TO-DATE
 > Task :app:writeDebugAppMetadata UP-TO-DATE
 > Task :app:writeDebugSigningConfigVersions UP-TO-DATE
-> Task :app:processDebugManifestForPackage
-> Task :app:desugarDebugFileDependencies
 > Task :app:mergeDebugNativeLibs FAILED
-> Task :app:processDebugResources
 
-> Task :app:compileDebugKotlin
+> Task :app:compileDebugKotlin FAILED
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:7:26 Unresolved reference: compose
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:10:17 Unresolved reference: compose
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/Model/MainActivity.kt:11:17 Unresolved reference: compose
@@ -686,8 +686,6 @@ e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individual
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:118:31 Unresolved reference: sp
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:119:25 Unresolved reference: Color
 e: file:///C:/Users/alekd/Desktop/OOOps/app/src/main/java/com/example/individualproxy/views/Updating%20Screen.kt:120:29 Unresolved reference: TextAlign
-
-> Task :app:compileDebugKotlin FAILED
 
 FAILURE: Build completed with 3 failures.
 
@@ -1360,5 +1358,5 @@ You can use '--warning-mode all' to show the individual deprecation warnings and
 
 For more on this, please refer to https://docs.gradle.org/8.10/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
 
-BUILD FAILED in 20s
-25 actionable tasks: 11 executed, 14 up-to-date
+BUILD FAILED in 6s
+25 actionable tasks: 3 executed, 22 up-to-date
